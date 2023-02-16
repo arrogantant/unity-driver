@@ -6,7 +6,8 @@ public class coll : MonoBehaviour
 {
     [SerializeField] Color32 hasPackageColor = new Color32 (1,1,1,1);
     [SerializeField] Color32 noPackageColor = new Color32(1,1,1,1);
-    [SerializeField] float destroyDelay = 0.5f;
+    [SerializeField] float destroyDelay = 20f;
+
     bool hasPackage = false;
 
     SpriteRenderer spriteRenderer;
